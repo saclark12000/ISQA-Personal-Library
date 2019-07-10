@@ -1,0 +1,88 @@
+.border {
+  border-style: inset;
+  border-width: 1px;
+  margin: 10px;
+}
+
+#sampleui {
+  max-width: 450px;
+  margin-left: 5%;
+  height: 100%;
+}
+
+#sampleposting {
+  max-width: 450px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#userstories {
+  margin-left: 5%;
+}
+
+form {
+  padding: 5px;
+}
+
+#libraryUIContainer {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  color: white;
+  width: 100%;
+}
+
+#libraryUIContainer h2{
+  text-align: left;
+  flex: 'flex-grow' 100%;
+  width: 100%;
+  color: black;
+}
+
+#libraryUIContainer h4{
+  text-align: center;
+  flex: 'flex-grow' 50%;
+  width: 100%;
+  margin: 0px;
+  font-size: 24;
+  margin: 5px
+  
+}
+
+#libraryUIContainer form{
+  padding: 5px 15px;
+  margin: 0px;
+  border: 2px solid white;
+  text-align: center;
+  flex: 1;
+  background-color: #1E5631;
+  min-width: 415px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.formButton{
+  font-family: 'Encode Sans Expanded', sans-serif;
+  margin: 5px;
+}
+
+.formInput{
+  display: inline-block;
+  width: 350px;
+  margin: 5px;
+  text-align:center;
+}
+
+#jsonResultAllDeleted{
+  opacity: 0;
+}
+
+.alert p{
+  margin: 0px;
+}
